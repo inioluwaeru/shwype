@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="info">
+                <small><img src="./img/phone.svg" width="15px" alt=""> &nbsp; +234 913 503 7348</small>
+                <a href="#"><img src="./img/email-outline.svg" width="15px" alt=""> &nbsp; info@shwype.com</a>
+            </div>
+            <div class="shop">
+                <p>Free shipping from <span class="cr">₦40,000</span>!</p>
+                <a href="#">Shop Now </a>
+            </div>
+            <div></div>
+        </div>
+        <div class="main">
+            <div class="nav-bar--btns ">
+                <a href="#"><img class="come" src="./img/magnify.svg" width="30vw" alt=""></a>
+                <a href="#"><img class="yes" src="./img/cart-outline.svg" width="30vw" alt=""></a>
+                <a href="#"><img  class="go" src="./img/account.svg" width="30vw" alt=""></a>
+            </div>
+            <div class="nav-bar">
+                <div id="hidnav" class="hidden-nav cta">
+                    <a href="#">Shop</a>
+                    <a href="#">Sneaker Care</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Blog</a>
+                </div>
+            <div id="nav"  class="location">
+                <a href="#">Shop</a>
+                <a href="#">Sneaker Care</a>
+                <a href="#">FAQs</a>
+                <a href="#">Blog</a>
+                <a href="javascript:void(0)" id="icon" onclick="navSimple()" class="icon">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+            
+
+            <div class="nav-bar--logo ">
+                <img src="./img/logo.avif" class="logo" width="100vw" alt="">
+            </div>
+
+            
+            </div>
+            <div class="carousel" id="desk">
+                
+                <div class="carousel-item carousel-item--visible">
+                    <img src="./img/clean.webp" alt="">
+                    <div class="text-element ">
+                        <h1>Clean up <br> and go conquer <br> The world.</h1>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img src="./img/nike.webp" alt="">
+                    <div class="text-elemente" id="second">
+                        <h1>Tough Stains <br> Gentle on Sneakers</h1>
+                        <button>Shop Now</button>
+                    </div>
+                </div>              
+                
+                <div class="carousel-action">
+                    <button id="previous" class="cta" aria-label="Previous slide"><</button>
+                    <button id="next" class="cta" aria-label="Next slide">></button>
+                </div>
+            </div>
+        </div>
+        <div class="product-div">
+            <div class="product-header">
+                <h1>THE ESSENTIALS</h1>
+            </div>
+            <div class="product-text">
+                <h3>The basics to get you started on your cleaning journey</h3>
+            </div>
+            <div class="product-list">
+                <div class="product first">
+                    <div class="product-1"></div>
+                    <div class="product-detail">
+                        <p>Essential Pack</p>
+                        </div>
+                        <div class="product-price">
+                            <p>₦7,000.00</p>
+                        </div>
+                        <div class="btn-container">
+                            <div class="eye"></div> 
+                            <div class="cart"></div>
+                        </div>
+                </div>
+                <div class="product second">
+                    <div class="product-2"></div>
+                    <div class="product-detail">
+                        <p>Suede Cleaning Kit</p>
+                        </div>
+                        <div class="product-price">
+                            <p>₦1,000.00</p>
+                        </div>
+                        <div class="btn-container">
+                            <div class="eye"></div> 
+                            <div class="cart"></div>
+                        </div>
+                </div>
+                <div class="product third">
+                    <div class="product-3"></div>
+                    <div class="product-detail">
+                        <p>Sneaker Cleaner Gel</p>
+                        </div>
+                        <div class="product-price">
+                            <p>₦3,500.00</p>
+                        </div>
+                        <div class="btn-container">
+                            <div class="eye"></div> 
+                            <div class="cart"></div>
+                        </div>
+                </div>
+                <div class="product fourth">
+                    <div class="product-4"></div>
+                    <div class="product-detail">
+                        <p>Sneaker Midsole Marker</p>
+                        </div>
+                        <div class="product-price">
+                            <p>₦1,000.00</p>
+                        </div>
+                        <div class="btn-container">
+                            <div class="eye"></div> 
+                            <div class="cart"></div>
+                        </div>
+                </div>
+                <div class="product last">
+                    <div class="product-5"></div>
+                    <div class="product-detail">
+                        <p>Sneaker Cleaner Gel Combo</p>
+                        </div>
+                        <div class="product-price">
+                            <p>₦8,000.00</p>
+                        </div>
+                        <div class="btn-container">
+                            <div class="eye"></div> 
+                            <div class="cart"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="creed">
+           <div class="creed-header">
+            <div class="product-header">
+                <h1>OUR CREED</h1>
+            </div>
+           </div>
+           <div class="creed-text">
+                <h3>Africa is built different and our sneaker care solutions are built specifically to cater to this uniqueness,<br>
+                making sure our African Kings and Queens always put their best foot forward</h3>
+           </div>
+           <div class="creed-images ">
+                <div class="image-1 "></div>
+                <div class="image-2 "></div>
+           </div> 
+        </div>
+        <div class="large-image">
+            <div class="texts">
+                <h1 class="lg-text-element">ADIDAS STAN SMITH</h1>
+                <p>Shwype Sneaker Care</p>
+                <button>Play Video</button>
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="tst-header">
+                <h1 class="tst-header--text">What the streets are saying</h1>
+            </div>
+            <div class="tst ">
+                <div class="tst-container-1 ">
+                    <div class="img-tls--div">
+                        <img class="img-tls" src="./img/pic1.webp" alt="">
+                    </div>
+                    <div class="rating">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                    </div>
+                    <div class="comment-tls">
+                        <p>"It's great, helped me cleaned up my shoe nice."</p>
+                    </div>
+                    <div class="name-tls--div">
+                        <p>Dante</p>
+                    </div>
+                </div>
+                <div class="tst-container-2 ">
+                    <div class="img-tls--div">
+                        <img class="img-tls" src="./img/pic2.avif" alt="">
+                    </div>
+                    <div class="rating">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                    </div>
+                    <div class="comment-tls">
+                        <p>"The packaging is world class."</p>
+                    </div>
+                    <div class="name-tls--div">
+                        <p>Chioma</p>
+                    </div>
+                </div>
+                <div class="tst-container-3 ">
+                    <div class="img-tls--div">
+                        <img class="img-tls" src="./img/pic3.avif" alt="">
+                    </div>
+                    <div class="rating">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                        <img src="./img/star.svg" width="20px" alt="">
+                    </div>
+                    <div class="comment-tls">
+                        <p>"It's dope. Love the ease."</p>
+                    </div>
+                    <div class="por">
+                        <p>Dolapo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <div class="reg-nlt">
+                <div class="txt-nlt">
+                    <h1>Get Daily Update For Deals <br> & Exclusive Discount</h1>
+                </div>
+                <div class="inp-nlt">
+                    <input type="text" placeholder="enter email address" class="inp-nlt--inp">
+                    <button class="inp-nlt--btn">Subscribe &#8594;</button>
+                </div>
+            </div>
+        </div>
+        <div class="outro">
+            <div class="outro">
+                <div class="git">
+                    <div class="title">
+                        <h2>GET IN TOUCH</h2>
+                    </div>
+                    <div class="ul">
+                        <ul>
+                            <li>
+                                <div class="list">
+                                    <a href="#"><img src="./img/phone.svg" width="15px" alt=""> &nbsp; info@shwype.com</a>
+                                </div>
+                            </li>
+                            <li><a href="#"><img src="./img/email-outline.svg" width="15px" alt=""> &nbsp; +234 913 503 7348</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="title">
+                        <h2>CATEGORIES</h2>
+                    </div>
+                    <div class="ul">
+                        <ul>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">SHIPPING INFO</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Refund policy</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="nlt">
+                    <div class="title">
+                        <h2>NEWSLETTER</h2>
+                    </div>
+                    <div class="ul">
+                        <ul>
+                            <li>Sign up to receive special offers & <br> exclusive gifts.</li>
+                            <li>
+                                <div class="out-nlt">
+                                    <div class="out-reg--nlt">
+                                        <input type="text" placeholder="enter email address" class="out-nlt--inp">
+                                        <button class="out-nlt--btn">Subscribe &#8594;</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="fot-cop">
+                <p>Copyright © 2023 Shwype, All Rights Reserved</p>
+            </div>
+            <div class="fot-link">
+                <ul class="fot-link--li">
+                    <li><a class="fot-link--item" href="#">CONTACT</a></li>
+                    <li><a class="fot-link--item" href="#">ABOUT</a></li>
+                    <li><a class="fot-link--item" href="#">FAQs</a></li>
+                    <li><a class="fot-link--item" href="#">SHIPPING INFO</a></li>
+                    <li><a class="fot-link--item" href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <!-- <div class="outro"></div> -->
+    </div>
+
+    <script src="./java/java.js"></script>
+</body>
+</html>
